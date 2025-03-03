@@ -8,8 +8,8 @@ interface ButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 }
 
 const ButtonVariants = {
-  primary: "bg-primary-600 hover:bg-primary-700 text-white",
-  secondary: "border border-gray-100 hover:text-text-50 text-text-100",
+  primary: "bg-primary-500 hover:bg-primary-600 text-white",
+  secondary: "border border-gray-200 hover:text-text-50 text-text-100",
 };
 
 function Button(props: ButtonProps) {

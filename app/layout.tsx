@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Sora } from "next/font/google";
+import Navbar from "@/sections/Navbar";
 import "./globals.css";
 
 const sora = Sora({
@@ -13,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ebike",
+  title: "e.bike",
   description: "your go to e-bike delivery service",
 };
 
@@ -24,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${sora.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${sora.variable}`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

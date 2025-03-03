@@ -3,12 +3,12 @@ import { Inter, Sora } from "next/font/google";
 import "./globals.css";
 
 const sora = Sora({
-  variable: "--font-geist-sans",
+  variable: "--font-sora",
   subsets: ["latin"],
 });
 
 const inter = Inter({
-  variable: "--font-geist-sans",
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${sora.variable} ${inter.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${sora.variable}`}>{children}</body>
     </html>
   );
 }

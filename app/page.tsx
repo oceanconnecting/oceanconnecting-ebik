@@ -1,3 +1,9 @@
+import Navbar from "@/sections/Navbar";
+
 export default function Home() {
-  return <div>hello --{">"}</div>;
+  return (
+    <div className="font-inter">
+      <Navbar />
+    </div>
+  );
 }

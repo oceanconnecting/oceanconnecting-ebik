@@ -10,7 +10,7 @@ function SectionWrapper({ children, className = "" }: SectionWrapperProps) {
   return (
     <div
       className={cn(
-        "flex items-center flex-col w-full min-h-screen px-4 my-32 lg:h-screen overflow-x-clip lg:items-center",
+        "flex items-center flex-col w-full px-4 mt-32 lg:h-screen overflow-x-clip lg:items-center",
         className
       )}
     >

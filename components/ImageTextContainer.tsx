@@ -16,7 +16,7 @@ function ImageTextContainer({ title, text, image }: ImageTextContainerProps) {
           <h1 className="font-sora text-4xl text-accent-200 font-extrabold lg:text-5xl">
             {title}
           </h1>
-          <p className="mt-4 sm:text-xl/relaxed text-text-300">{text}</p>
+          <p className="mt-6 text-text-300">{text}</p>
         </div>
         <div className="relative flex justify-center items-center">
           <div className="relative max-w-xs md:max-w-sm mx-auto md:mx-0">

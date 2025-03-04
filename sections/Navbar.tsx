@@ -10,7 +10,7 @@ function Navbar() {
   ];
 
   return (
-    <header className="bg-white font-inter z-50 fixed w-full border-b border-gray-100">
+    <header className="bg-white/90 backdrop-blur-lg font-inter z-50 fixed w-full border-b border-gray-100">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex flex-1 md:flex-none md:items-center md:gap-12">

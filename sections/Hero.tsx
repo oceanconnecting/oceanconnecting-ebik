@@ -12,7 +12,7 @@ function Hero() {
 
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="md:text-left text-center mb-8 mx-8 md:ml-16 md:mb-0">
-          <div className="inline-flex items-center border bg-gradient-to-b from-background-950 to-white shadow-md border-background-950 gap-2 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
+          <div className="inline-flex items-center border bg-gradient-to-t from-background-900 to-white shadow-md border-background-950 gap-2 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
             <div className="flex justify-center -space-x-2">
               {["/hero/p1.jpg", "/hero/p2.jpg", "/hero/p3.jpg"].map((i) => (
                 <div
@@ -35,7 +35,7 @@ function Hero() {
             </strong>
           </h1>
 
-          <p className="mt-4 sm:text-xl/relaxed text-text-100">
+          <p className="mt-4 sm:text-xl/relaxed text-text-300">
             Experience the best delivery service with our state-of-the-art
             logistics. We ensure your packages arrive on time, every time.
           </p>
@@ -68,7 +68,7 @@ function Hero() {
           <div className="absolute bottom-[20px] left-[-10px] w-12 h-12 bg-gradient-to-tr from-blue-400/40 to-blue-400/10 rounded-lg z-0"></div>
           <div className="absolute top-[40%] right-[-15px] w-16 h-16 bg-gradient-to-bl from-yellow-300/30 to-yellow-300/10 rounded-lg rotate-12 z-0"></div>
 
-          <div className="absolute top-[40%] left-[5%] hover:scale-105 duration-300 transition-all bg-white/90 backdrop-blur-sm p-3 rounded-lg shadow-md z-20 rotate-[-5deg] max-w-[180px]">
+          <div className="absolute top-[40%] left-[5%] hover:scale-105 duration-300 transition-all bg-white/90 backdrop-blur-sm p-3 rounded-lg shadow-md z-20 rotate-[-5deg] hover:rotate-0 max-w-[180px]">
             <div className="flex items-center gap-2 mb-2">
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary-500/30 to-blue-500/30 flex items-center justify-center">
                 <Image
@@ -101,7 +101,7 @@ function Hero() {
             </p>
           </div>
 
-          <div className="absolute hover:scale-105 duration-300 transition-all bottom-[15%] right-[10%] bg-white/90 backdrop-blur-sm p-2 rounded-lg shadow-md z-20 rotate-[5deg]">
+          <div className="absolute hover:scale-105 duration-300 transition-all bottom-[15%] right-[10%] bg-white/90 backdrop-blur-sm p-2 rounded-lg shadow-md z-20 hover:rotate-0 rotate-[5deg]">
             <p className="text-xs md:text-sm font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-700">
               24/7 Support
             </p>

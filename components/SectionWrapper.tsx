@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils/cn";
 import React, { ReactNode } from "react";
 
 interface SectionWrapperProps {
@@ -8,7 +9,10 @@ interface SectionWrapperProps {
 function SectionWrapper({ children, className = "" }: SectionWrapperProps) {
   return (
     <div
-      className={`mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen overflow-clip lg:items-center ${className}`}
+      className={cn(
+        "flex items-center flex-col w-full min-h-screen px-4 py-16 lg:h-screen overflow-x-clip lg:items-center",
+        className
+      )}
     >
       {children}
     </div>

@@ -47,7 +47,7 @@ const deliveryServices: {
 
 function Services() {
   return (
-    <section>
+    <section id="services">
       <SectionWrapper>
         <Tag>Services</Tag>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3 justify-center gap-4 mt-16">

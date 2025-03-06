@@ -1,25 +1,32 @@
+"use client";
+
 import Button from "@/components/Button";
-import React from "react";
+import { Menu, X } from "lucide-react";
+import Link from "next/link";
+import { useState } from "react";
+import { AnimatePresence, motion } from "motion/react";
 
 function Navbar() {
   const NavbarList = [
-    { title: "about", link: "" },
-    { title: "features", link: "" },
-    { title: "services", link: "" },
-    { title: "contact", link: "" },
+    { title: "features", link: "/#features" },
+    { title: "services", link: "/#services" },
+    { title: "about", link: "/#about" },
+    { title: "contact", link: "/#contact" },
   ];
+
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
     <header className="bg-white/90 backdrop-blur-lg font-inter z-50 fixed w-full border-b border-gray-100">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex flex-1 md:flex-none md:items-center md:gap-12">
-            <a className="block" href="#">
+            <Link className="block" href="/#home">
               <span className="sr-only">Home</span>
               <h1 className="text-primary-50 font-sora">
                 e<span className="text-primary-500">.</span>Bike Delivery
               </h1>
-            </a>
+            </Link>
           </div>
 
           <div className="hidden md:block">
@@ -52,7 +59,7 @@ function Navbar() {
                 <Button
                   variant="secondary"
                   className="text-sm hidden sm:block"
-                  href="#"
+                  href="/#contact"
                 >
                   contact
                 </Button>
@@ -61,24 +68,37 @@ function Navbar() {
           </div>
 
           <div className="block md:hidden">
-            <button className="rounded-sm p-2 text-text-100 transition hover:text-gray-600/75">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+            <button
+              onClick={() => setIsDropdownOpen((prev) => !prev)}
+              className="rounded-sm p-2 text-text-100 transition hover:text-gray-600/75"
+            >
+              {isDropdownOpen ? <X /> : <Menu />}
             </button>
           </div>
         </div>
+        <AnimatePresence>
+          {isDropdownOpen && (
+            <motion.div
+              initial={{ height: 0 }}
+              animate={{ height: "auto" }}
+              exit={{ height: 0 }}
+              className="block lg:hidden overflow-hidden w-full h-fit"
+            >
+              <div className="flex items-center flex-col gap-6 mb-6">
+                {NavbarList.map((item, index) => (
+                  <div key={index}>
+                    <Link
+                      className="text-text-100 transition hover:text-text-100/75"
+                      href={item.link}
+                    >
+                      {item.title}
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </header>
   );

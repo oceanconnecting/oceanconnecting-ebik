@@ -3,9 +3,9 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden py-12 md:py-20">
-      <div className="absolute inset-0 bg-white"></div>
-
+    <section id="home" className="relative overflow-hidden py-12 md:py-20">
+      <div className="bg-accent-900 size-32 absolute left-[90px] -z-10 filter blur-3xl" />
+      <div className="bg-primary-800 size-32 absolute bottom-1/2 right-[90px] -z-10 filter blur-3xl" />
       <div className="absolute top-0 left-0 w-96 h-96 bg-primary-500/10 rounded-full filter blur-3xl opacity-50 -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-400/10 rounded-full filter blur-3xl opacity-50 translate-x-1/3 translate-y-1/3"></div>
       <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-yellow-300/10 rounded-full filter blur-3xl opacity-40 -translate-x-1/2 -translate-y-1/2"></div>

@@ -20,7 +20,7 @@ function ImageTextContainer({ title, text, image }: ImageTextContainerProps) {
         </div>
         <div className="relative flex justify-center items-center">
           <div className="relative max-w-xs md:max-w-sm mx-auto md:mx-0">
-            <div className="relative rounded-xl z-10 overflow-hidden">
+            <div className="relative rounded-xl my-6 z-10 overflow-hidden">
               <Image src={image} alt={title} width={300} height={300} />
             </div>
           </div>

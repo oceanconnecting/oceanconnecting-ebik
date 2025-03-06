@@ -115,6 +115,10 @@
   --font-inter: var(--font-inter);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--color-text-50);
   background: var(--color-background-950);

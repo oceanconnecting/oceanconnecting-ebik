@@ -1,3 +1,4 @@
+import About from "@/sections/About";
 import ChooseUs from "@/sections/ChooseUs";
 import ContactUs from "@/sections/Contact/ContactUs";
 import Features from "@/sections/Features";
@@ -11,6 +12,7 @@ export default function Home() {
       <Features />
       <Services />
       <ChooseUs />
+      <About />
       <ContactUs />
     </div>
   );

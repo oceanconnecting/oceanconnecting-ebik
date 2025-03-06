@@ -24,7 +24,7 @@ const MyMap = () => {
   return (
     <MapContainer
       id="map"
-      center={[30.435881, -9.55593]}
+      center={[50.107655, 8.688165]}
       zoom={13}
       style={{ height: "448px", width: "100%" }}
       className="rounded-xl z-0 h-full w-full"
@@ -35,7 +35,7 @@ const MyMap = () => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[30.435881, -9.55593]}></Marker>
+      <Marker position={[50.107655, 8.688165]}></Marker>
     </MapContainer>
   );
 };

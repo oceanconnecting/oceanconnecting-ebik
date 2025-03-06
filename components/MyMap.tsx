@@ -26,7 +26,7 @@ const MyMap = () => {
       id="map"
       center={[30.435881, -9.55593]}
       zoom={13}
-      style={{ height: "448px", width: "448px" }}
+      style={{ height: "448px", width: "100%" }}
       className="rounded-xl z-0 h-full w-full"
       scrollWheelZoom={true}
       dragging={true}

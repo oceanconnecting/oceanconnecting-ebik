@@ -65,7 +65,7 @@ function ContactUs() {
   return (
     <div
       id="contact"
-      className="min-h-screen relative bg-background-950 flex items-center justify-center py-24 px-4 sm:px-6 lg:px-8"
+      className="min-h-screen relative bg-background-950 flex items-center justify-center py-32 px-4 sm:px-6 lg:px-32"
     >
       <Toaster />
       <Image
@@ -76,8 +76,8 @@ function ContactUs() {
         className=" absolute object-cover w-full h-full z-0"
       ></Image>
       <div className="bg-accent-50/35 z-[1] absolute w-full h-full" />
-      <div className="z-[2] relative flex flex-col lg:flex-row items-stretch gap-10 justify-center">
-        <div className="max-w-md w-full z-[2] space-y-8 bg-white p-6 rounded-xl shadow-md">
+      <div className="z-[2] relative w-full flex flex-col lg:flex-row items-stretch gap-10 justify-stretch">
+        <div className="w-full z-[2] space-y-8 bg-white p-6 rounded-xl shadow-md">
           <div>
             <h2 className="mt-6 font-sora text-center text-3xl font-extrabold text-accent-200">
               Contact Us

@@ -11,7 +11,8 @@ function Navbar() {
     { title: "features", link: "/#features" },
     { title: "services", link: "/#services" },
     { title: "about", link: "/#about" },
-    { title: "contact", link: "/#contact" },
+    { title: "career", link: "/#chooseus" },
+    { title: "opinion", link: "/#opinion" },
   ];
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -46,25 +47,13 @@ function Navbar() {
             </nav>
           </div>
           <div className="flex items-center gap-4 md:mr-0 mr-4">
-            <div className="sm:flex sm:gap-4">
-              <Button
-                variant="primary"
-                className="text-sm bg-background-50 hover:bg-background-100"
-                href="#"
-              >
-                Book now
-              </Button>
-
-              <div className="hidden sm:flex">
-                <Button
-                  variant="secondary"
-                  className="text-sm hidden sm:block"
-                  href="/#contact"
-                >
-                  contact
-                </Button>
-              </div>
-            </div>
+            <Button
+              variant="primary"
+              className="text-sm bg-background-50 hover:bg-background-100"
+              href="/#contact"
+            >
+              Contact
+            </Button>
           </div>
 
           <div className="block md:hidden">

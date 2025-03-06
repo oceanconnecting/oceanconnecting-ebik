@@ -3,6 +3,7 @@ import { Inter, Sora } from "next/font/google";
 import Navbar from "@/sections/Navbar";
 import "./globals.css";
 import Footer from "@/sections/Footer";
+import BackToTopButton from "@/components/BackToTopButton";
 
 const sora = Sora({
   variable: "--font-sora",
@@ -28,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${sora.variable}`}>
         <Navbar />
+        <BackToTopButton />
         {children}
         <Footer />
       </body>

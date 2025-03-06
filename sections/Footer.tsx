@@ -7,7 +7,6 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
-import Button from "@/components/Button";
 
 function Footer() {
   const footerLinks = [
@@ -17,6 +16,9 @@ function Footer() {
         { name: "About", href: "/#about" },
         { name: "Services", href: "/#services" },
         { name: "Features", href: "/#features" },
+        { name: "Career", href: "/#career" },
+        { name: "Opinion", href: "/#opinion" },
+        {name: "Contact", href: "/#contact"},
       ],
     },
     {
@@ -113,19 +115,6 @@ function Footer() {
                 </li>
               </ul>
             </div>
-
-            <div className="lg:hidden">
-              <p className="font-medium text-text-100">Book a Delivery</p>
-              <div className="mt-4">
-                <Button
-                  variant="primary"
-                  className="text-sm bg-background-50 hover:bg-background-100 w-full"
-                  href="#"
-                >
-                  Book now
-                </Button>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -135,15 +124,6 @@ function Footer() {
               &copy; {new Date().getFullYear()} e.Bike Delivery. All rights
               reserved.
             </p>
-            <div className="hidden lg:block">
-              <Button
-                variant="primary"
-                className="text-sm bg-background-50 hover:bg-background-100"
-                href="#"
-              >
-                Book now
-              </Button>
-            </div>
             <nav className="flex gap-4 text-xs">
               <a
                 href="/privacy"

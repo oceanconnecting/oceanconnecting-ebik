@@ -3,6 +3,7 @@ import ChooseUs from "@/sections/ChooseUs";
 import ContactUs from "@/sections/Contact/ContactUs";
 import Features from "@/sections/Features";
 import Hero from "@/sections/Hero";
+import Opinion from "@/sections/Opnion";
 import Services from "@/sections/Services";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <ChooseUs />
       <About />
+      <Opinion />
       <ContactUs />
     </div>
   );

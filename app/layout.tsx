@@ -4,6 +4,7 @@ import Navbar from "@/sections/Navbar";
 import "./globals.css";
 import Footer from "@/sections/Footer";
 import BackToTopButton from "@/components/BackToTopButton";
+import OfflineChat from "@/components/OfflineChat"
 
 const sora = Sora({
   variable: "--font-sora",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${sora.variable}`}>
         <Navbar />
         <BackToTopButton />
+        <OfflineChat />
         {children}
         <Footer />
       </body>

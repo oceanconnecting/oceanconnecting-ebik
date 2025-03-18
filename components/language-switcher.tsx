@@ -31,8 +31,6 @@ export default function LanguageSwitcher() {
 
   // Extract the current language from the pathname
   const currentLangCode = pathname.split("/")[1] || "en";
-  const currentLanguage =
-    languages.find((lang) => lang.code === currentLangCode) || languages[0];
 
   // Handle language change and redirect
   const changeLanguage = (langCode: string) => {

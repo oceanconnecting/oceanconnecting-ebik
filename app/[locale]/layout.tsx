@@ -24,13 +24,16 @@ export const metadata: Metadata = {
   description: "your go to e-bike delivery service",
 };
 
+interface RootLayoutProps {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}
+
+
 export default async function RootLayout({
   children,
   params,
-}: Readonly<{
-  children: React.ReactNode;
-  params: { locale: string };
-}>) {
+}: RootLayoutProps) {
   const { locale } = await params;
 
   const messages = await getMessages();
@@ -39,14 +42,15 @@ export default async function RootLayout({
   if (!validLocales.includes(locale)) {
     redirect("/en");
   }
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={`${inter.variable} ${sora.variable}`}>
         <NextIntlClientProvider messages={messages}>
+          <OfflineChat />
           <Navbar />
           <BackToTopButton />
-          <OfflineChat />
-          {children}
+          <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

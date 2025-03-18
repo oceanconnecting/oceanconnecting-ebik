@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "features": "Features",
+    "services": "Services",
+    "about": "About",
+    "career": "Career",
+    "opinion": "Opinion",
+    "contact": "Contact"
+  },
+  "hero": {
+    "trusted_by": "Loved and Trusted by millions of people",
+    "headline_main": "Deliver Packages Efficiently.",
+    "headline_strong": "Fast and Reliable.",
+    "description": "Experience the best delivery service with our state-of-the-art logistics. We ensure your packages arrive on time, every time.",
+    "get_started": "Get Started",
+    "contact_us": "Contact Us"
+  },
+  "features": {
+    "tag": "Features",
+    "intro": "In a fast-moving world, we bring you speed, reliability, and sustainability all in one service. Our bike-powered delivery ensures your packages arrive on time, every time, without adding to pollution.",
+    "fastReliableTitle": "Fast & Reliable",
+    "fastReliableDescr": "Whether it's same-day or scheduled delivery, we get it there with precision.",
+    "ecoFriendlyTitle": "Eco-Friendly",
+    "ecoFriendlyDescr": "Our bike couriers reduce carbon emissions, making every delivery green.",
+    "affordableSecureTitle": "Affordable & Secure",
+    "affordableSecureDescr": "Competitive pricing with insurance options for your valuable items.",
+    "convenientHassleFreeTitle": "Convenient & Hassle-Free",
+    "convenientHassleFreeDescr": "Real-time tracking and flexible delivery slots tailored to your needs.",
+    "promise": "Join us in choosing a smarter, greener way to deliver. Your package deserves the best, and so does the planet.\"",
+    "promiseAuthor": "Our Promise"
+  },
+  "services": {
+    "tag": "Services",
+    "service1": {
+      "name": "Eco-Friendly Standard Delivery",
+      "descr": "Cost-effective delivery using our fleet of eco-friendly bikes. Ideal for non-urgent packages within the city."
+    },
+    "service2": {
+      "name": "Express Bike Delivery",
+      "descr": "Fast and efficient bike delivery for small to medium packages, ensuring arrival within 1-2 business days."
+    },
+    "service3": {
+      "name": "Same-Day Bike Delivery",
+      "descr": "Need it fast? Our riders deliver your package within hours, perfect for urgent deliveries within city limits."
+    },
+    "service4": {
+      "name": "Scheduled Bike Delivery",
+      "descr": "Plan your delivery at your convenience. Choose a specific time slot for a smooth and hassle-free drop-off."
+    },
+    "service5": {
+      "name": "Secure & Insured Bike Delivery",
+      "descr": "For valuable or fragile items, our trained couriers ensure safe transportation with insurance coverage."
+    },
+    "service6": {
+      "name": "Sustainable Business Deliveries",
+      "descr": "Eco-conscious bulk deliveries for businesses, using bikes to reduce carbon emissions while ensuring timely arrivals."
+    }
+  },
+  "about_us": {
+    "title": "About Us",
+    "paragraph_1": "At e-bike delivery, we are revolutionizing urban package delivery with our fleet of eco-friendly electric bikes. Our mission is to provide fast, reliable, and sustainable delivery solutions that reduce carbon emissions and traffic congestion in cities.",
+    "paragraph_2": "We specialize in same-day and last-mile delivery, ensuring that your packages arrive on time while keeping our streets cleaner and greener. Our couriers navigate through traffic efficiently using e-bikes, allowing us to offer a cost-effective and eco-conscious alternative to traditional delivery services.",
+    "paragraph_3": "With real-time tracking, secure handling, and exceptional customer service, we make sure every package reaches its destination safely. Whether you're a business looking for a dependable delivery partner or an individual sending a package across town, e-bike delivery is here to deliver—fast, green, and hassle-free."
+  },
+  "choose_us": {
+    "title": "Smart, Fast, and Eco-Friendly Deliveries",
+    "text": "We provide fast, reliable, and eco-friendly delivery services using electric bikes. Whether you need a package delivered the same day, within hours, or at a scheduled time, we ensure it arrives safely and on time. Our couriers handle everything from standard deliveries to secure and insured shipments with real-time tracking. With zero carbon emissions and a commitment to efficiency, we offer a smarter and more sustainable way to get your packages where they need to be."
+  },
+  "opinion": {
+    "section_title": "What people said about us",
+    "reviews": {
+      "review1": {
+        "name": "Alex Smith",
+        "descr": "Fantastic service! My package arrived on time, and I love that they use e-bikes to reduce pollution. Will definitely use them again!"
+      },
+      "review2": {
+        "name": "James Carter",
+        "descr": "Great eco-friendly initiative! The delivery was a bit slower than expected, but I appreciate the effort to go green."
+      },
+      "review3": {
+        "name": "Mark Rodríguez",
+        "descr": "I had a small issue with tracking, but overall, the service was good. Love the concept of using e-bikes for deliveries!"
+      },
+      "review4": {
+        "name": "Mark Johnson",
+        "descr": "Excellent service! The delivery was quick, and I admire their commitment to sustainability. Highly recommend!"
+      },
+      "review5": {
+        "name": "Adersson White",
+        "descr": "I appreciate companies that care about the environment. My order arrived in perfect condition, and the courier was very friendly."
+      },
+      "review6": {
+        "name": "Darren Brown",
+        "descr": "Very innovative concept! The service was reliable, but I hope they expand their coverage to more areas."
+      },
+      "review7": {
+        "name": "Bill Chen",
+        "descr": "Super fast delivery and excellent customer support! Plus, it's great to see a company committed to sustainability."
+      }
+    }
+  },
+  "contactUs": {
+    "heading": "Contact Us",
+    "subheading": "Have a question or need assistance? We're here to help! Fill out the form below and we'll get back to you as soon as possible.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Full Name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Message",
+    "submitButton": "Submit",
+    "formSuccess": "Form submitted successfully!",
+    "formError": "Something went wrong!"
+  },
+  "footer": {
+    "companyTitle": "Company",
+    "about": "About",
+    "services": "Services",
+    "features": "Features",
+    "career": "Career",
+    "opinion": "Opinion",
+    "contact": "Contact",
+    "supportTitle": "Support",
+    "faq": "FAQ",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "description": "Fast, eco-friendly delivery solutions for your business. Reliable service with zero emissions.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "contactTitle": "Contact",
+    "address": "Röntgenstraße 9, 60388 Frankfurt am Main",
+    "phone": "+49 176 56064257",
+    "email": "info@ebikedelivery.com",
+    "allRightsReserved": "All rights reserved",
+    "termsConditions": "Terms & Conditions",
+    "cookies": "Cookies"
+  },
+  "chatbot": {
+    "chatbot": "chat bot",
+    "select": "select a question",
+    "question_1": "How does your company deliver packages?",
+    "answer_1": "We use electric bikes (e-bikes) to deliver packages efficiently and sustainably.",
+    "question_2": "Why do you use e-bikes instead of cars?",
+    "answer_2": "E-bikes are environmentally friendly, reduce traffic congestion, and are more cost-effective for local deliveries.",
+    "question_3": "How fast can your e-bikes deliver packages?",
+    "answer_3": "Our e-bikes can deliver packages within an hour for most local deliveries, depending on traffic and distance.",
+    "question_4": "Do you deliver in all areas of the city?",
+    "answer_4": "We focus on urban areas with high demand for eco-friendly delivery options, but we're expanding to more regions.",
+    "question_5": "Are there any restrictions on the types of packages you can deliver?",
+    "answer_5": "We deliver most small to medium-sized packages. However, there are restrictions for oversized or hazardous items.",
+    "question_6": "How can I track my package?",
+    "answer_6": "You can track your package in real-time via our app, which shows the location of your delivery rider.",
+    "question_7": "What happens if my delivery is delayed?",
+    "answer_7": "If there is a delay, you'll receive a notification with an updated estimated delivery time.",
+    "question_8": "How much does it cost for a delivery?",
+    "answer_8": "Our pricing is based on the delivery distance and package size. Check our website or app for accurate pricing.",
+    "question_9": "Can I schedule a delivery in advance?",
+    "answer_9": "Yes, you can schedule a delivery up to 7 days in advance through our app.",
+    "question_10": "What if I need to change my delivery address?",
+    "answer_10": "You can update the delivery address through our app before the package is picked up by the rider.",
+    "question_11": "Do you offer any eco-friendly packaging options?",
+    "answer_11": "Yes, we offer recyclable and sustainable packaging for our deliveries.",
+    "question_12": "How can I contact customer support?",
+    "answer_12": "You can reach our customer support team through the contact section of our app or website.",
+    "question_13": "Is your delivery service available outside of business hours?",
+    "answer_13": "We offer deliveries during extended hours, including weekends, to accommodate customers' needs.",
+    "question_14": "How can I sign up for your delivery service?",
+    "answer_14": "You can sign up easily through our website or app by providing basic details and setting up a delivery account."
+  }
+}

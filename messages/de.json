@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "features": "Funktionen",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "career": "Karriere",
+    "opinion": "Meinung",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "trusted_by": "Geliebt und vertrauenswürdig von Millionen von Menschen",
+    "headline_main": "Pakete effizient liefern.",
+    "headline_strong": "Schnell und zuverlässig.",
+    "description": "Erleben Sie den besten Lieferservice mit unserer hochmodernen Logistik. Wir stellen sicher, dass Ihre Pakete pünktlich ankommen, jedes Mal.",
+    "get_started": "Loslegen",
+    "contact_us": "Kontaktieren Sie uns"
+  },
+  "features": {
+    "tag": "Funktionen",
+    "intro": "In einer schnelllebigen Welt bieten wir Ihnen Geschwindigkeit, Zuverlässigkeit und Nachhaltigkeit in einem Service. Unsere fahrradbetriebenen Lieferungen stellen sicher, dass Ihre Pakete pünktlich und ohne zusätzliche Umweltbelastung ankommen.",
+    "fastReliableTitle": "Schnell & Zuverlässig",
+    "fastReliableDescr": "Ob Same-Day- oder geplante Lieferung, wir bringen es mit Präzision an den Zielort.",
+    "ecoFriendlyTitle": "Umweltfreundlich",
+    "ecoFriendlyDescr": "Unsere Fahrradboten reduzieren den CO2-Ausstoß und machen jede Lieferung umweltfreundlich.",
+    "affordableSecureTitle": "Erschwinglich & Sicher",
+    "affordableSecureDescr": "Wettbewerbsfähige Preise mit Versicherungsoptionen für Ihre wertvollen Gegenstände.",
+    "convenientHassleFreeTitle": "Bequem & Stressfrei",
+    "convenientHassleFreeDescr": "Echtzeitverfolgung und flexible Lieferzeiten, die auf Ihre Bedürfnisse zugeschnitten sind.",
+    "promise": "Schließen Sie sich uns an, um eine smartere, grünere Lieferweise zu wählen. Ihr Paket verdient das Beste, und der Planet ebenso.",
+    "promiseAuthor": "Unser Versprechen"
+  },
+  "services": {
+    "tag": "Dienstleistungen",
+    "service1": {
+      "name": "Umweltfreundliche Standardlieferung",
+      "descr": "Kostengünstige Lieferung mit unserer Flotte von umweltfreundlichen Fahrrädern. Ideal für nicht dringende Pakete innerhalb der Stadt."
+    },
+    "service2": {
+      "name": "Express-Fahrradlieferung",
+      "descr": "Schnelle und effiziente Fahrradlieferung für kleine bis mittelgroße Pakete, die innerhalb von 1-2 Werktagen ankommen."
+    },
+    "service3": {
+      "name": "Same-Day-Fahrradlieferung",
+      "descr": "Brauchen Sie es schnell? Unsere Fahrer liefern Ihr Paket innerhalb von Stunden, perfekt für dringende Lieferungen innerhalb der Stadtgrenzen."
+    },
+    "service4": {
+      "name": "Geplante Fahrradlieferung",
+      "descr": "Planen Sie Ihre Lieferung nach Ihrem Wunsch. Wählen Sie ein bestimmtes Zeitfenster für eine reibungslose und stressfreie Zustellung."
+    },
+    "service5": {
+      "name": "Sichere & Versicherte Fahrradlieferung",
+      "descr": "Für wertvolle oder zerbrechliche Gegenstände gewährleisten unsere geschulten Boten eine sichere Beförderung mit Versicherungsschutz."
+    },
+    "service6": {
+      "name": "Nachhaltige Geschäftslieferungen",
+      "descr": "Umweltbewusste Großlieferungen für Unternehmen, die Fahrräder nutzen, um den CO2-Ausstoß zu reduzieren und gleichzeitig pünktliche Ankünfte zu gewährleisten."
+    }
+  },
+  "about_us": {
+    "title": "Über uns",
+    "paragraph_1": "Bei e-bike delivery revolutionieren wir die urbane Paketlieferung mit unserer Flotte von umweltfreundlichen Elektrofahrrädern. Unsere Mission ist es, schnelle, zuverlässige und nachhaltige Lieferlösungen anzubieten, die den CO2-Ausstoß und den Verkehr in den Städten verringern.",
+    "paragraph_2": "Wir sind auf Same-Day- und Last-Mile-Lieferungen spezialisiert und sorgen dafür, dass Ihre Pakete pünktlich ankommen, während wir gleichzeitig unsere Straßen sauberer und grüner halten. Unsere Boten navigieren effizient durch den Verkehr und ermöglichen es uns, eine kostengünstige und umweltbewusste Alternative zu herkömmlichen Lieferdiensten anzubieten.",
+    "paragraph_3": "Mit Echtzeitverfolgung, sicherer Handhabung und außergewöhnlichem Kundenservice stellen wir sicher, dass jedes Paket sicher ankommt. Ob Sie ein Unternehmen sind, das einen zuverlässigen Lieferpartner sucht, oder eine Privatperson, die ein Paket in der Stadt versendet – e-bike delivery liefert schnell, grün und stressfrei."
+  },
+  "choose_us": {
+    "title": "Smarter, Schneller und Umweltfreundlicher Lieferservice",
+    "text": "Wir bieten schnelle, zuverlässige und umweltfreundliche Lieferdienste mit Elektrofahrrädern. Ob Sie ein Paket am selben Tag, innerhalb von Stunden oder zu einer geplanten Zeit benötigen, wir stellen sicher, dass es sicher und pünktlich ankommt. Unsere Boten kümmern sich um alles, von Standardlieferungen bis hin zu sicheren und versicherten Sendungen mit Echtzeitverfolgung. Mit null CO2-Emissionen und einem Engagement für Effizienz bieten wir eine klügere und nachhaltigere Möglichkeit, Ihre Pakete zu liefern."
+  },
+  "opinion": {
+    "section_title": "Was die Leute über uns sagen",
+    "reviews": {
+      "review1": {
+        "name": "Alex Smith",
+        "descr": "Fantastischer Service! Mein Paket kam pünktlich an, und ich liebe es, dass sie E-Bikes zur Reduzierung der Umweltverschmutzung verwenden. Ich werde sie auf jeden Fall wieder nutzen!"
+      },
+      "review2": {
+        "name": "James Carter",
+        "descr": "Tolle umweltfreundliche Initiative! Die Lieferung war etwas langsamer als erwartet, aber ich schätze die Bemühungen, grün zu gehen."
+      },
+      "review3": {
+        "name": "Mark Rodríguez",
+        "descr": "Ich hatte ein kleines Problem mit der Verfolgung, aber insgesamt war der Service gut. Ich liebe das Konzept, E-Bikes für Lieferungen zu nutzen!"
+      },
+      "review4": {
+        "name": "Mark Johnson",
+        "descr": "Exzellenter Service! Die Lieferung war schnell, und ich bewundere ihr Engagement für Nachhaltigkeit. Sehr zu empfehlen!"
+      },
+      "review5": {
+        "name": "Adersson White",
+        "descr": "Ich schätze Unternehmen, die sich um die Umwelt kümmern. Meine Bestellung kam in perfektem Zustand an, und der Bote war sehr freundlich."
+      },
+      "review6": {
+        "name": "Darren Brown",
+        "descr": "Sehr innovatives Konzept! Der Service war zuverlässig, aber ich hoffe, dass sie ihre Abdeckung auf mehr Gebiete ausweiten."
+      },
+      "review7": {
+        "name": "Bill Chen",
+        "descr": "Super schnelle Lieferung und hervorragender Kundenservice! Außerdem ist es toll zu sehen, dass ein Unternehmen sich für Nachhaltigkeit einsetzt."
+      }
+    }
+  },
+  "contactUs": {
+    "heading": "Kontaktieren Sie uns",
+    "subheading": "Haben Sie eine Frage oder benötigen Sie Hilfe? Wir sind hier, um zu helfen! Füllen Sie das Formular unten aus, und wir melden uns so schnell wie möglich bei Ihnen.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Vollständiger Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "E-Mail",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Nachricht",
+    "submitButton": "Absenden",
+    "formSuccess": "Formular erfolgreich abgeschickt!",
+    "formError": "Etwas ist schief gelaufen!"
+  },
+  "footer": {
+    "companyTitle": "Unternehmen",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "features": "Funktionen",
+    "career": "Karriere",
+    "opinion": "Meinung",
+    "contact": "Kontakt",
+    "supportTitle": "Support",
+    "faq": "Häufig gestellte Fragen",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "description": "Schnelle, umweltfreundliche Lieferlösungen für Ihr Unternehmen. Zuverlässiger Service mit null Emissionen.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "contactTitle": "Kontakt",
+    "address": "Röntgenstraße 9, 60388 Frankfurt am Main",
+    "phone": "+49 176 56064257",
+    "email": "info@ebikedelivery.com",
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "termsConditions": "Allgemeine Geschäftsbedingungen",
+    "cookies": "Cookies"
+  },
+  "chatbot": {
+    "chatbot": "Chatbot",
+    "select": "Wählen Sie eine Frage",
+    "question_1": "Wie liefert Ihr Unternehmen Pakete?",
+    "answer_1": "Wir verwenden Elektrofahrräder (E-Bikes), um Pakete effizient und nachhaltig zu liefern.",
+    "question_2": "Warum verwenden Sie E-Bikes statt Autos?",
+    "answer_2": "E-Bikes sind umweltfreundlich, reduzieren den Verkehr und sind kostengünstiger für lokale Lieferungen.",
+    "question_3": "Wie schnell können Ihre E-Bikes Pakete liefern?",
+    "answer_3": "Unsere E-Bikes können Pakete innerhalb einer Stunde für die meisten lokalen Lieferungen liefern, abhängig vom Verkehr und der Entfernung.",
+    "question_4": "Liefern Sie in allen Stadtgebieten?",
+    "answer_4": "Wir konzentrieren uns auf städtische Gebiete mit hoher Nachfrage nach umweltfreundlichen Lieferoptionen, erweitern jedoch nach und nach auch andere Regionen.",
+    "question_5": "Gibt es Einschränkungen für die Art von Paketen, die Sie liefern können?",
+    "answer_5": "Wir liefern die meisten kleinen bis mittelgroßen Pakete. Allerdings gibt es Einschränkungen für übergroße oder gefährliche Artikel.",
+    "question_6": "Wie kann ich mein Paket verfolgen?",
+    "answer_6": "Sie können Ihr Paket in Echtzeit über unsere App verfolgen, die den Standort Ihres Lieferfahrers anzeigt.",
+    "question_7": "Was passiert, wenn meine Lieferung verspätet ist?",
+    "answer_7": "Falls es zu einer Verzögerung kommt, erhalten Sie eine Benachrichtigung mit einer aktualisierten voraussichtlichen Lieferzeit.",
+    "question_8": "Was kostet eine Lieferung?",
+    "answer_8": "Unsere Preise richten sich nach der Lieferdistanz und der Paketgröße. Überprüfen Sie unsere Website oder App für genaue Preise.",
+    "question_9": "Kann ich eine Lieferung im Voraus planen?",
+    "answer_9": "Ja, Sie können eine Lieferung bis zu 7 Tage im Voraus über unsere App planen.",
+    "question_10": "Was passiert, wenn ich meine Lieferadresse ändern muss?",
+    "answer_10": "Sie können die Lieferadresse über unsere App ändern, bevor das Paket vom Fahrer abgeholt wird.",
+    "question_11": "Bieten Sie umweltfreundliche Verpackungsoptionen an?",
+    "answer_11": "Ja, wir bieten recycelbare und nachhaltige Verpackungen für unsere Lieferungen an.",
+    "question_12": "Wie kann ich den Kundenservice kontaktieren?",
+    "answer_12": "Sie können unser Kundenserviceteam über den Kontaktbereich unserer App oder Website erreichen.",
+    "question_13": "Ist Ihr Lieferservice außerhalb der Geschäftszeiten verfügbar?",
+    "answer_13": "Wir bieten Lieferungen während erweiterter Zeiten, einschließlich Wochenenden, um den Bedürfnissen der Kunden gerecht zu werden.",
+    "question_14": "Wie melde ich mich für Ihren Lieferservice an?",
+    "answer_14": "Sie können sich ganz einfach über unsere Website oder App anmelden, indem Sie grundlegende Details angeben und ein Lieferkonto einrichten."
+  }
+}

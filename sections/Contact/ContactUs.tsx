@@ -3,8 +3,9 @@ import React, { FormEvent, useRef, useState } from "react";
 import { sendMail } from "./Actions";
 import Image from "next/image";
 import toast, { Toaster } from "react-hot-toast";
-import { Loader, Mail, User, Users } from "lucide-react";
+import { Loader } from "lucide-react";
 import dynamic from "next/dynamic";
+import { useTranslations } from "next-intl"; // Import useTranslation hook
 
 const notifySuccess = () => toast.success("form submited Successfully!");
 const notifyError = () => toast.error("something went wrong!");
@@ -14,6 +15,7 @@ const Map = dynamic(() => import("@/components/MyMap"), {
 });
 
 function ContactUs() {
+  const t = useTranslations(); // Get translation function
   const [formData, setFormData] = useState({
     nomPrenom: "",
     email: "",
@@ -70,7 +72,7 @@ function ContactUs() {
       <Toaster />
       <Image
         src={"/contact.jpg"}
-        alt={"conatct"}
+        alt={t("contactUs.heading")} // Using translation for alt text
         width={1280}
         height={720}
         className=" absolute object-cover w-full h-full z-0"
@@ -80,18 +82,17 @@ function ContactUs() {
         <div className="w-full z-[2] space-y-8 bg-white p-6 rounded-xl shadow-md">
           <div>
             <h2 className="mt-6 font-sora text-center text-3xl font-extrabold text-accent-200">
-              Contact Us
+              {t("contactUs.heading")}
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600">
-              Have a question or need assistance? We're here to help! Fill out
-              the form below and we'll get back to you as soon as possible.
+              {t("contactUs.subheading")}
             </p>
           </div>
           <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-1">
                 <label className="text-sm text-accent-100" htmlFor="nomPrenom">
-                  name
+                  {t("contactUs.nameLabel")}
                 </label>
                 <input
                   id="nomPrenom"
@@ -100,14 +101,14 @@ function ContactUs() {
                   ref={nameInput}
                   required
                   className="appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-primary-500 focus:border-primary-500 focus:z-10 sm:text-sm"
-                  placeholder="full name"
+                  placeholder={t("contactUs.namePlaceholder")}
                   value={formData.nomPrenom}
                   onChange={handleChange}
                 />
               </div>
               <div className="flex flex-col gap-1">
                 <label className="text-sm text-accent-100" htmlFor="email">
-                  email
+                  {t("contactUs.emailLabel")}
                 </label>
                 <input
                   id="email"
@@ -116,14 +117,14 @@ function ContactUs() {
                   ref={emailInput}
                   required
                   className="appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-primary-500 focus:border-primary-500 focus:z-10 sm:text-sm"
-                  placeholder="Email"
+                  placeholder={t("contactUs.emailPlaceholder")}
                   value={formData.email}
                   onChange={handleChange}
                 />
               </div>
               <div className="flex flex-col gap-1">
                 <label className="text-sm text-accent-100" htmlFor="message">
-                  message
+                  {t("contactUs.messageLabel")}
                 </label>
                 <textarea
                   id="message"
@@ -131,7 +132,7 @@ function ContactUs() {
                   ref={messageInput}
                   required
                   className="appearance-none min-h-32 max-h-64 rounded-lg relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-primary-500 focus:border-primary-500 focus:z-10 sm:text-sm"
-                  placeholder="message"
+                  placeholder={t("contactUs.messagePlaceholder")}
                   value={formData.message}
                   onChange={handleChange}
                 />
@@ -144,7 +145,7 @@ function ContactUs() {
                 className="group gap-3 bg-gradient-to-l from-primary-400 to-primary-500 disabled:bg-gray-400 relative w-full flex justify-center py-2 px-4 text-sm font-medium rounded-full text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
               >
                 {IsSubmitting && <Loader className=" animate-spin" />}
-                submit
+                {t("contactUs.submitButton")}
               </button>
             </div>
           </form>

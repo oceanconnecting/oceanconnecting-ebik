@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "features": "特点",
+    "services": "服务",
+    "about": "关于我们",
+    "career": "职业",
+    "opinion": "评价",
+    "contact": "联系"
+  },
+  "hero": {
+    "trusted_by": "数百万人信赖与支持",
+    "headline_main": "高效配送包裹。",
+    "headline_strong": "快速与可靠。",
+    "description": "体验最佳配送服务，拥有先进的物流系统。我们保证您的包裹每次都按时到达。",
+    "get_started": "开始使用",
+    "contact_us": "联系我们"
+  },
+  "features": {
+    "tag": "特点",
+    "intro": "在这个快速变化的世界中，我们为您提供快速、可靠且可持续的服务。我们的骑行配送确保包裹按时送达，不增加污染。",
+    "fastReliableTitle": "快速 & 可靠",
+    "fastReliableDescr": "无论是当日配送还是预约配送，我们都确保精准送达。",
+    "ecoFriendlyTitle": "环保",
+    "ecoFriendlyDescr": "我们的骑行配送减少了碳排放，让每次配送更绿色。",
+    "affordableSecureTitle": "实惠 & 安全",
+    "affordableSecureDescr": "竞争力的价格和贵重物品的保险选项。",
+    "convenientHassleFreeTitle": "便捷 & 无忧",
+    "convenientHassleFreeDescr": "实时跟踪和灵活的配送时间，满足您的需求。",
+    "promise": "加入我们，选择更智能、更环保的配送方式。您的包裹值得最好的，我们的地球也同样如此。",
+    "promiseAuthor": "我们的承诺"
+  },
+  "services": {
+    "tag": "服务",
+    "service1": {
+      "name": "环保标准配送",
+      "descr": "通过我们的环保电动自行车进行经济配送，适用于城市中不紧急的包裹。"
+    },
+    "service2": {
+      "name": "电动自行车快递",
+      "descr": "通过电动自行车进行快速高效的配送，适合小到中型包裹，通常保证1-2个工作日内送达。"
+    },
+    "service3": {
+      "name": "当日配送",
+      "descr": "需要快速配送？我们的骑行配送员将在几小时内将您的包裹送达，适用于紧急城市配送。"
+    },
+    "service4": {
+      "name": "预约配送",
+      "descr": "根据您的时间安排配送，选择合适的时间段，确保无忧配送。"
+    },
+    "service5": {
+      "name": "安全 & 投保配送",
+      "descr": "对于贵重或易碎物品，我们的训练有素的骑行配送员确保安全运输，并提供保险。"
+    },
+    "service6": {
+      "name": "企业可持续配送",
+      "descr": "为企业提供大宗配送服务，使用电动自行车减少碳排放，同时确保及时送达。"
+    }
+  },
+  "about_us": {
+    "title": "关于我们",
+    "paragraph_1": "在 e-bike delivery，我们通过电动自行车改变城市包裹配送的方式。我们的使命是提供快速、可靠且可持续的配送解决方案，减少碳排放并缓解城市交通拥堵。",
+    "paragraph_2": "我们专注于同日配送和最后一公里配送，确保您的包裹准时送达，同时保持街道更清洁、更绿色。我们的骑行配送员通过电动自行车高效地穿越城市交通，提供一个经济且环保的传统配送方式的替代方案。",
+    "paragraph_3": "通过实时跟踪、安全处理和卓越的客户服务，我们确保每个包裹安全到达目的地。无论您是寻找可靠配送合作伙伴的企业，还是希望寄送包裹的个人，e-bike delivery 都是您最佳的选择——快速、环保且无忧。"
+  },
+  "choose_us": {
+    "title": "智能、快速且环保的配送",
+    "text": "我们通过电动自行车提供快速、可靠且环保的配送服务。无论您需要当天配送、几小时内配送，还是预约配送，我们都能确保包裹安全准时送达。我们的骑行配送员负责一切，从标准配送到带保险的安全配送，并提供实时跟踪。凭借零碳排放并致力于高效配送，我们提供了一种更智能、更可持续的方式，让您的包裹准时送达。"
+  },
+  "opinion": {
+    "section_title": "客户评价",
+    "reviews": {
+      "review1": {
+        "name": "Alex Smith",
+        "descr": "服务非常棒！我的包裹按时到达，而且我喜欢他们使用电动自行车减少污染。我一定会再使用！"
+      },
+      "review2": {
+        "name": "James Carter",
+        "descr": "一个非常环保的举措！配送稍微慢了一点，但我喜欢他们的环保努力。"
+      },
+      "review3": {
+        "name": "Mark Rodríguez",
+        "descr": "非常创新的概念！虽然配送稍有延误，但总体来说，服务很好。我很喜欢他们使用电动自行车配送！"
+      },
+      "review4": {
+        "name": "Mark Johnson",
+        "descr": "服务出色！配送迅速，而且我很欣赏他们对可持续发展的承诺。我强烈推荐！"
+      },
+      "review5": {
+        "name": "Adersson White",
+        "descr": "我喜欢那些关注环境的公司。我的包裹完好无损地到达，配送员也非常友好。"
+      },
+      "review6": {
+        "name": "Darren Brown",
+        "descr": "一个非常创新的概念！服务可靠，但希望他们能扩展到更多地区。"
+      },
+      "review7": {
+        "name": "Bill Chen",
+        "descr": "超快的配送和出色的客户服务！而且，看到一家公司致力于可持续发展真是太棒了。"
+      }
+    }
+  },
+  "contactUs": {
+    "heading": "联系我们",
+    "subheading": "有问题或需要帮助？我们随时为您提供帮助！请填写下面的表格，我们会尽快回复您。",
+    "nameLabel": "姓名",
+    "namePlaceholder": "全名",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "邮箱",
+    "messageLabel": "消息",
+    "messagePlaceholder": "消息",
+    "submitButton": "提交",
+    "formSuccess": "表单提交成功！",
+    "formError": "出现了问题！"
+  },
+  "footer": {
+    "companyTitle": "公司",
+    "about": "关于我们",
+    "services": "服务",
+    "features": "特点",
+    "career": "职业",
+    "opinion": "评价",
+    "contact": "联系",
+    "supportTitle": "支持",
+    "faq": "常见问题",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "description": "为您的企业提供快速且环保的配送解决方案。可靠的服务，零排放。",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "contactTitle": "联系",
+    "address": "Röntgenstraße 9, 60388 法兰克福",
+    "phone": "+49 176 56064257",
+    "email": "info@ebikedelivery.com",
+    "allRightsReserved": "版权所有",
+    "termsConditions": "条款与条件",
+    "cookies": "Cookies"
+  },
+  "chatbot": {
+    "chatbot": "聊天机器人",
+    "select": "选择问题",
+    "question_1": "你们公司如何配送包裹？",
+    "answer_1": "我们使用电动自行车（e-bike）进行高效且可持续的包裹配送。",
+    "question_2": "为什么选择电动自行车而不是汽车？",
+    "answer_2": "电动自行车环保，减少交通拥堵，且适合本地配送。",
+    "question_3": "你们的电动自行车配送速度有多快？",
+    "answer_3": "我们的电动自行车通常能在1-2小时内完成本地配送，具体取决于交通情况和配送距离。",
+    "question_4": "你们的配送服务覆盖城市的所有区域吗？",
+    "answer_4": "我们主要专注于需求高的城市区域，但正在扩展到更多地区。",
+    "question_5": "你们有包裹配送的限制吗？",
+    "answer_5": "我们配送大多数小型到中型包裹，但对于大型或危险物品有所限制。",
+    "question_6": "如何跟踪我的包裹？",
+    "answer_6": "您可以通过我们的应用程序实时跟踪包裹，查看配送员的位置信息。",
+    "question_7": "如果我的配送延迟了怎么办？",
+    "answer_7": "如果发生延迟，您将收到通知，并提供新的配送预计时间。",
+    "question_8": "配送费用是多少？",
+    "answer_8": "我们的费用根据配送距离和包裹尺寸而定，您可以通过我们的应用或网站查看具体价格。",
+    "question_9": "可以提前预约配送吗？",
+    "answer_9": "可以，您可以通过我们的应用预约最多7天后的配送。",
+    "question_10": "如果我要更改配送地址怎么办？",
+    "answer_10": "您可以在包裹被配送员取件之前，通过我们的应用更新配送地址。",
+    "question_11": "你们提供环保包装选项吗？",
+    "answer_11": "是的，我们提供可回收和可持续的包装选项。",
+    "question_12": "如何联系客服？",
+    "answer_12": "您可以通过我们的应用或网站的联系部分联系我们的客服团队。",
+    "question_13": "你们的配送服务是否在营业时间外提供？",
+    "answer_13": "我们提供延长的配送时间，包括周末配送，以满足客户需求。",
+    "question_14": "如何注册使用你们的配送服务？",
+    "answer_14": "您可以通过我们的官网或应用注册，只需提供基本信息并设置配送账户。"
+  }
+}

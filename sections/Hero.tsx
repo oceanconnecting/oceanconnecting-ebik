@@ -1,8 +1,11 @@
 import Button from "@/components/Button";
 import { BadgeCheck } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Hero() {
+  const t = useTranslations("hero");
+
   return (
     <section id="home" className="relative overflow-hidden py-12 md:py-20">
       {/* Background decorative elements */}
@@ -14,7 +17,7 @@ export default function Hero() {
 
       <div className="container mx-auto px-4">
         <div className="relative z-10 grid grid-cols-1 md:flex justify-center gap-8 items-center">
-          {/* Left column - Testimonial on medium screens and up */}
+          {/* Left column image */}
           <div className="absolute -rotate-6 -left-20 hidden -z-10 lg:flex justify-center items-center">
             <div className="relative max-w-xs md:max-w-xs mx-auto md:mx-0">
               <div className="relative z-10 overflow-hidden p-2">
@@ -27,10 +30,6 @@ export default function Hero() {
                 />
               </div>
             </div>
-
-            <div className="absolute top-[-15px] right-[-10px] w-16 h-16 bg-gradient-to-br from-primary-500/30 to-primary-500/10 rounded-full z-0 animate-pulse"></div>
-            <div className="absolute bottom-[20px] left-[-10px] w-12 h-12 bg-gradient-to-tr from-blue-400/40 to-blue-400/10 rounded-lg z-0"></div>
-            <div className="absolute top-[40%] right-[-15px] w-16 h-16 bg-gradient-to-bl from-yellow-300/30 to-yellow-300/10 rounded-lg rotate-12 z-0"></div>
           </div>
 
           {/* Center column - Hero text */}
@@ -42,44 +41,36 @@ export default function Hero() {
                     key={i}
                     className="w-6 h-6 rounded-full border-2 border-white flex items-center justify-center overflow-hidden"
                   >
-                    <Image
-                      src={i || "/placeholder.svg"}
-                      width={100}
-                      height={100}
-                      alt=""
-                    />
+                    <Image src={i} width={100} height={100} alt="" />
                   </div>
                 ))}
               </div>
-              <span className="text-xs font-medium">
-                Loved and Trusted by millions of people
-              </span>
+              <span className="text-xs font-medium">{t("trusted_by")}</span>
             </div>
 
             <h1 className="font-sora text-4xl font-extrabold lg:text-5xl">
-              Deliver Packages Efficiently.
+              {t("headline_main")}
               <strong className="font-extrabold bg-clip-text text-transparent p-1 rounded-md bg-gradient-to-r from-primary-400 to-primary-600 block mt-2">
-                Fast and Reliable.
+                {t("headline_strong")}
               </strong>
             </h1>
 
             <p className="mt-4 sm:text-xl/relaxed text-text-300">
-              Experience the best delivery service with our state-of-the-art
-              logistics. We ensure your packages arrive on time, every time.
+              {t("description")}
             </p>
 
             <div className="mt-8 flex justify-center gap-4">
               <Button variant="primary" href="#contact">
-                Get Started
+                {t("get_started")}
               </Button>
 
               <Button variant="secondary" href="#contact">
-                Contact Us
+                {t("contact_us")}
               </Button>
             </div>
           </div>
 
-          {/* Right column - Hero image */}
+          {/* Right column image */}
           <div className="absolute rotate-6 -right-20 hidden -z-10 lg:flex justify-center items-center">
             <div className="relative max-w-xs md:max-w-xs mx-auto md:mx-0">
               <div className="relative z-10 overflow-hidden p-2">
@@ -92,10 +83,6 @@ export default function Hero() {
                 />
               </div>
             </div>
-
-            <div className="absolute top-[-15px] right-[-10px] w-16 h-16 bg-gradient-to-br from-primary-500/30 to-primary-500/10 rounded-full z-0 animate-pulse"></div>
-            <div className="absolute bottom-[20px] left-[-10px] w-12 h-12 bg-gradient-to-tr from-blue-400/40 to-blue-400/10 rounded-lg z-0"></div>
-            <div className="absolute top-[40%] right-[-15px] w-16 h-16 bg-gradient-to-bl from-yellow-300/30 to-yellow-300/10 rounded-lg rotate-12 z-0"></div>
           </div>
         </div>
       </div>

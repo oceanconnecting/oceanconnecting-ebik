@@ -4,6 +4,7 @@ import { Send, ChevronDown, MessageCircle, RotateCw, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import { cn } from "@/lib/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 interface DropdownOption {
   value: string;
@@ -11,104 +12,90 @@ interface DropdownOption {
 }
 
 function OfflineChat() {
+  const t = useTranslations("chatbot");
   const offlineChatbotDataArray = [
     {
       id: 1,
-      question: "How does your company deliver packages?",
-      answer:
-        "We use electric bikes (e-bikes) to deliver packages efficiently and sustainably.",
+      question: t("question_1"),
+      answer: t("answer_1"),
       followUp: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
     },
     {
       id: 2,
-      question: "Why do you use e-bikes instead of cars?",
-      answer:
-        "E-bikes are environmentally friendly, reduce traffic congestion, and are more cost-effective for local deliveries.",
+      question: t("question_2"),
+      answer: t("answer_2"),
       followUp: [3, 4],
     },
     {
       id: 3,
-      question: "How fast can your e-bikes deliver packages?",
-      answer:
-        "Our e-bikes can deliver packages within an hour for most local deliveries, depending on traffic and distance.",
+      question: t("question_3"),
+      answer: t("answer_3"),
       followUp: [5, 6],
     },
     {
       id: 4,
-      question: "Do you deliver in all areas of the city?",
-      answer:
-        "We focus on urban areas with high demand for eco-friendly delivery options, but we're expanding to more regions.",
+      question: t("question_4"),
+      answer: t("answer_4"),
       followUp: [7, 8],
     },
     {
       id: 5,
-      question:
-        "Are there any restrictions on the types of packages you can deliver?",
-      answer:
-        "We deliver most small to medium-sized packages. However, there are restrictions for oversized or hazardous items.",
+      question: t("question_5"),
+      answer: t("answer_5"),
       followUp: [9],
     },
     {
       id: 6,
-      question: "How can I track my package?",
-      answer:
-        "You can track your package in real-time via our app, which shows the location of your delivery rider.",
+      question: t("question_6"),
+      answer: t("answer_6"),
       followUp: [10],
     },
     {
       id: 7,
-      question: "What happens if my delivery is delayed?",
-      answer:
-        "If there is a delay, you'll receive a notification with an updated estimated delivery time.",
+      question: t("question_7"),
+      answer: t("answer_7"),
       followUp: [11, 12],
     },
     {
       id: 8,
-      question: "How much does it cost for a delivery?",
-      answer:
-        "Our pricing is based on the delivery distance and package size. Check our website or app for accurate pricing.",
+      question: t("question_8"),
+      answer: t("answer_8"),
       followUp: [13],
     },
     {
       id: 9,
-      question: "Can I schedule a delivery in advance?",
-      answer:
-        "Yes, you can schedule a delivery up to 7 days in advance through our app.",
+      question: t("question_9"),
+      answer: t("answer_9"),
       followUp: [],
     },
     {
       id: 10,
-      question: "What if I need to change my delivery address?",
-      answer:
-        "You can update the delivery address through our app before the package is picked up by the rider.",
+      question: t("question_10"),
+      answer: t("answer_10"),
       followUp: [],
     },
     {
       id: 11,
-      question: "Do you offer any eco-friendly packaging options?",
-      answer:
-        "Yes, we offer recyclable and sustainable packaging for our deliveries.",
+      question: t("question_11"),
+      answer: t("answer_11"),
       followUp: [],
     },
     {
       id: 12,
-      question: "How can I contact customer support?",
-      answer:
-        "You can reach our customer support team through the contact section of our app or website.",
+      question: t("question_12"),
+      answer: t("answer_12"),
       followUp: [],
     },
     {
       id: 13,
-      question: "Is your delivery service available outside of business hours?",
-      answer:
-        "We offer deliveries during extended hours, including weekends, to accommodate customers' needs.",
+      question: t("question_13"),
+      answer: t("answer_13"),
       followUp: [14],
     },
     {
       id: 14,
-      question: "How can I sign up for your delivery service?",
-      answer:
-        "You can sign up easily through our website or app by providing basic details and setting up a delivery account.",
+      question: t("question_14"),
+      answer: t("answer_14"),
       followUp: [],
     },
   ];
@@ -226,7 +213,7 @@ function OfflineChat() {
             className="w-80 h-[26rem] flex flex-col rounded-lg shadow-lg bg-background-950 overflow-hidden"
           >
             <div className="bg-primary-500 flex gap-2 items-center text-text-950 p-4">
-              <h2 className="text-xl flex-1 font-semibold">offline chat</h2>
+              <h2 className="text-xl flex-1 font-semibold">{t("chatbot")}</h2>
               <div className="group cursor-pointer" onClick={() => resetChat()}>
                 <RotateCw
                   size={20}
@@ -274,7 +261,7 @@ function OfflineChat() {
                         }`}
                       />
                       <span className="text-text-100 truncate">
-                        {selectedQuestion || "select question"}
+                        {selectedQuestion || t("select")}
                       </span>
                     </button>
                     {isDropdownOpen && (

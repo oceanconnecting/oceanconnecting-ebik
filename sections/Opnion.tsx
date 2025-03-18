@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import useMeasure from "react-use-measure";
 import Tag from "@/components/Tag";
 import Image from "next/image";
-import { Star } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 interface CardProps {
   image: string;
@@ -59,53 +59,47 @@ function Card({ image, name, descr, starRate }: CardProps) {
 }
 
 function Opinion() {
+  const t = useTranslations();
   const opinions = [
     {
-      name: "Alex Smith",
-      descr:
-        "Fantastic service! My package arrived on time, and I love that they use e-bikes to reduce pollution. Will definitely use them again!",
+      name: t("opinion.reviews.review1.name"),
+      descr: t("opinion.reviews.review1.descr"),
       starRate: 5,
       image: "/opinion/p1.jpg",
     },
     {
-      name: "James Carter",
-      descr:
-        "Great eco-friendly initiative! The delivery was a bit slower than expected, but I appreciate the effort to go green.",
+      name: t("opinion.reviews.review2.name"),
+      descr: t("opinion.reviews.review2.descr"),
       starRate: 4,
       image: "/opinion/p2.jpg",
     },
     {
-      name: "Mark Rodríguez",
-      descr:
-        "I had a small issue with tracking, but overall, the service was good. Love the concept of using e-bikes for deliveries!",
+      name: t("opinion.reviews.review3.name"),
+      descr: t("opinion.reviews.review3.descr"),
       starRate: 3,
       image: "/opinion/p3.jpg",
     },
     {
-      name: "Mark Johnson",
-      descr:
-        "Excellent service! The delivery was quick, and I admire their commitment to sustainability. Highly recommend!",
+      name: t("opinion.reviews.review4.name"),
+      descr: t("opinion.reviews.review4.descr"),
       starRate: 5,
       image: "/opinion/p4.jpg",
     },
     {
-      name: "Adersson White",
-      descr:
-        "I appreciate companies that care about the environment. My order arrived in perfect condition, and the courier was very friendly.",
+      name: t("opinion.reviews.review5.name"),
+      descr: t("opinion.reviews.review5.descr"),
       starRate: 5,
       image: "/opinion/p5.jpg",
     },
     {
-      name: "darren Brown",
-      descr:
-        "Very innovative concept! The service was reliable, but I hope they expand their coverage to more areas.",
+      name: t("opinion.reviews.review6.name"),
+      descr: t("opinion.reviews.review6.descr"),
       starRate: 4,
       image: "/opinion/p6.jpg",
     },
     {
-      name: "bill Chen",
-      descr:
-        "Super fast delivery and excellent customer support! Plus, it's great to see a company committed to sustainability.",
+      name: t("opinion.reviews.review7.name"),
+      descr: t("opinion.reviews.review7.descr"),
       starRate: 5,
       image: "/opinion/p7.jpg",
     },
@@ -147,10 +141,11 @@ function Opinion() {
 
     return controls?.stop;
   }, [rerender, xTranslation, duration, width]);
+
   return (
     <section id="opinion" className="bg-background-900 py-16">
       <div className="flex flex-col [mask-image:linear-gradient(to_right,rgba(0,0,0,0)_0%,rgba(0,0,0,1)_10%,rgba(0,0,0,1)_90%,rgba(0,0,0,0)_100%)] overflow-hidden items-center py-6 w-full h-fit">
-        <Tag>What people said about us</Tag>
+        <Tag>{t("opinion.section_title")}</Tag>
         <div className="overflow-hidden mt-12 py-1 w-full">
           <motion.div
             className="flex gap-6 w-max flex-nowrap"

@@ -1,0 +1,171 @@
+{
+  "navbar": {
+    "features": "Caractéristiques",
+    "services": "Services",
+    "about": "À propos",
+    "career": "Carrière",
+    "opinion": "Avis",
+    "contact": "Contact"
+  },
+  "hero": {
+    "trusted_by": "Aimé et approuvé par des millions de personnes",
+    "headline_main": "Livrer des colis efficacement.",
+    "headline_strong": "Rapide et fiable.",
+    "description": "Découvrez le meilleur service de livraison avec notre logistique de pointe. Nous garantissons que vos colis arrivent à l'heure, à chaque fois.",
+    "get_started": "Commencer",
+    "contact_us": "Contactez-nous"
+  },
+  "features": {
+    "tag": "Caractéristiques",
+    "intro": "Dans un monde en mouvement rapide, nous vous offrons la rapidité, la fiabilité et la durabilité, tout en un. Notre livraison à vélo garantit que vos colis arrivent à l'heure, sans ajouter à la pollution.",
+    "fastReliableTitle": "Rapide & Fiable",
+    "fastReliableDescr": "Que ce soit pour une livraison le jour même ou planifiée, nous vous livrons avec précision.",
+    "ecoFriendlyTitle": "Écologique",
+    "ecoFriendlyDescr": "Nos coursiers à vélo réduisent les émissions de carbone, rendant chaque livraison verte.",
+    "affordableSecureTitle": "Abordable & Sûr",
+    "affordableSecureDescr": "Des prix compétitifs avec des options d'assurance pour vos objets précieux.",
+    "convenientHassleFreeTitle": "Pratique & Sans Tracas",
+    "convenientHassleFreeDescr": "Suivi en temps réel et créneaux de livraison flexibles adaptés à vos besoins.",
+    "promise": "Rejoignez-nous pour choisir un moyen de livraison plus intelligent et plus écologique. Votre colis mérite le meilleur, et la planète aussi.",
+    "promiseAuthor": "Notre promesse"
+  },
+  "services": {
+    "tag": "Services",
+    "service1": {
+      "name": "Livraison standard écologique",
+      "descr": "Livraison économique grâce à notre flotte de vélos écologiques. Idéale pour les colis non urgents en ville."
+    },
+    "service2": {
+      "name": "Livraison express à vélo",
+      "descr": "Livraison rapide et efficace à vélo pour des colis de petite à moyenne taille, garantissant une arrivée sous 1-2 jours ouvrables."
+    },
+    "service3": {
+      "name": "Livraison le jour même à vélo",
+      "descr": "Besoin de rapidité ? Nos coursiers livrent votre colis en quelques heures, idéal pour les livraisons urgentes en ville."
+    },
+    "service4": {
+      "name": "Livraison à vélo planifiée",
+      "descr": "Planifiez votre livraison à votre convenance. Choisissez un créneau horaire précis pour une livraison fluide et sans tracas."
+    },
+    "service5": {
+      "name": "Livraison à vélo sécurisée & assurée",
+      "descr": "Pour les objets précieux ou fragiles, nos coursiers formés assurent un transport sûr avec couverture d'assurance."
+    },
+    "service6": {
+      "name": "Livraisons d'affaires durables",
+      "descr": "Livraisons en gros pour les entreprises, utilisant des vélos pour réduire les émissions de carbone tout en garantissant des arrivées ponctuelles."
+    }
+  },
+  "about_us": {
+    "title": "À propos de nous",
+    "paragraph_1": "Chez e-bike delivery, nous révolutionnons la livraison urbaine de colis avec notre flotte de vélos électriques écologiques. Notre mission est de fournir des solutions de livraison rapides, fiables et durables qui réduisent les émissions de carbone et la congestion du trafic en ville.",
+    "paragraph_2": "Nous nous spécialisons dans les livraisons le jour même et du dernier kilomètre, garantissant que vos colis arrivent à temps tout en gardant nos rues plus propres et plus vertes. Nos coursiers naviguent efficacement dans le trafic à l'aide de vélos électriques, nous permettant ainsi d'offrir une alternative économique et éco-responsable aux services de livraison traditionnels.",
+    "paragraph_3": "Avec un suivi en temps réel, une manipulation sécurisée et un service client exceptionnel, nous nous assurons que chaque colis atteint sa destination en toute sécurité. Que vous soyez une entreprise à la recherche d'un partenaire de livraison fiable ou un particulier envoyant un colis dans la ville, e-bike delivery est là pour livrer—rapidement, écologiquement et sans tracas."
+  },
+  "choose_us": {
+    "title": "Livraisons intelligentes, rapides et écologiques",
+    "text": "Nous proposons des services de livraison rapides, fiables et écologiques grâce à des vélos électriques. Que vous ayez besoin de livrer un colis le jour même, en quelques heures, ou à une heure planifiée, nous garantissons qu'il arrivera en toute sécurité et à l'heure. Nos coursiers prennent en charge tout, des livraisons standard aux envois sécurisés et assurés avec un suivi en temps réel. Avec zéro émission de carbone et un engagement envers l'efficacité, nous offrons une manière plus intelligente et plus durable de faire arriver vos colis là où ils doivent être."
+  },
+  "opinion": {
+    "section_title": "Ce que les gens disent de nous",
+    "reviews": {
+      "review1": {
+        "name": "Alex Smith",
+        "descr": "Service fantastique ! Mon colis est arrivé à l'heure, et j'adore qu'ils utilisent des vélos électriques pour réduire la pollution. Je vais définitivement les utiliser à nouveau !"
+      },
+      "review2": {
+        "name": "James Carter",
+        "descr": "Super initiative écologique ! La livraison a été un peu plus lente que prévu, mais j'apprécie les efforts pour être plus vert."
+      },
+      "review3": {
+        "name": "Mark Rodríguez",
+        "descr": "J'ai eu un petit problème avec le suivi, mais dans l'ensemble, le service était bon. J'adore le concept d'utiliser des vélos électriques pour les livraisons !"
+      },
+      "review4": {
+        "name": "Mark Johnson",
+        "descr": "Service excellent ! La livraison a été rapide, et j'admire leur engagement pour la durabilité. Je recommande vivement !"
+      },
+      "review5": {
+        "name": "Adersson White",
+        "descr": "J'apprécie les entreprises qui se soucient de l'environnement. Ma commande est arrivée en parfait état, et le coursier était très sympathique."
+      },
+      "review6": {
+        "name": "Darren Brown",
+        "descr": "Concept très innovant ! Le service était fiable, mais j'espère qu'ils étendront leur couverture à plus de zones."
+      },
+      "review7": {
+        "name": "Bill Chen",
+        "descr": "Livraison ultra-rapide et un excellent service client ! En plus, c'est génial de voir une entreprise engagée pour la durabilité."
+      }
+    }
+  },
+  "contactUs": {
+    "heading": "Contactez-nous",
+    "subheading": "Vous avez une question ou besoin d'aide ? Nous sommes là pour vous aider ! Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.",
+    "nameLabel": "Nom",
+    "namePlaceholder": "Nom complet",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Message",
+    "submitButton": "Envoyer",
+    "formSuccess": "Formulaire soumis avec succès !",
+    "formError": "Quelque chose a mal tourné !"
+  },
+  "footer": {
+    "companyTitle": "Entreprise",
+    "about": "À propos",
+    "services": "Services",
+    "features": "Caractéristiques",
+    "career": "Carrière",
+    "opinion": "Avis",
+    "contact": "Contact",
+    "supportTitle": "Support",
+    "faq": "FAQ",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "description": "Solutions de livraison rapides et écologiques pour votre entreprise. Service fiable avec zéro émission.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "contactTitle": "Contact",
+    "address": "Röntgenstraße 9, 60388 Francfort-sur-le-Main",
+    "phone": "+49 176 56064257",
+    "email": "info@ebikedelivery.com",
+    "allRightsReserved": "Tous droits réservés",
+    "termsConditions": "Termes et conditions",
+    "cookies": "Cookies"
+  },
+  "chatbot": {
+    "chatbot": "chat bot",
+    "select": "sélectionner une question",
+    "question_1": "Comment votre entreprise livre-t-elle des colis ?",
+    "answer_1": "Nous utilisons des vélos électriques (e-bikes) pour livrer les colis de manière efficace et durable.",
+    "question_2": "Pourquoi utilisez-vous des vélos électriques plutôt que des voitures ?",
+    "answer_2": "Les vélos électriques sont écologiques, réduisent la congestion du trafic et sont plus rentables pour les livraisons locales.",
+    "question_3": "À quelle vitesse vos vélos électriques livrent-ils les colis ?",
+    "answer_3": "Nos vélos électriques peuvent livrer les colis en une heure pour la plupart des livraisons locales, en fonction du trafic et de la distance.",
+    "question_4": "Livrez-vous dans toutes les zones de la ville ?",
+    "answer_4": "Nous nous concentrons sur les zones urbaines avec une forte demande pour des options de livraison écologiques, mais nous nous étendons à d'autres régions.",
+    "question_5": "Y a-t-il des restrictions sur les types de colis que vous pouvez livrer ?",
+    "answer_5": "Nous livrons la plupart des colis de petite à moyenne taille. Cependant, il y a des restrictions pour les articles encombrants ou dangereux.",
+    "question_6": "Comment puis-je suivre mon colis ?",
+    "answer_6": "Vous pouvez suivre votre colis en temps réel via notre application, qui montre l'emplacement de votre livreur.",
+    "question_7": "Que se passe-t-il si ma livraison est retardée ?",
+    "answer_7": "Si un retard se produit, vous recevrez une notification avec une nouvelle estimation de l'heure de livraison.",
+    "question_8": "Combien coûte une livraison ?",
+    "answer_8": "Nos tarifs sont basés sur la distance de livraison et la taille du colis. Consultez notre site web ou notre application pour connaître les tarifs exacts.",
+    "question_9": "Puis-je programmer une livraison à l'avance ?",
+    "answer_9": "Oui, vous pouvez programmer une livraison jusqu'à 7 jours à l'avance via notre application.",
+    "question_10": "Que faire si je dois changer l'adresse de livraison ?",
+    "answer_10": "Vous pouvez mettre à jour l'adresse de livraison via notre application avant que le colis ne soit pris en charge par le livreur.",
+    "question_11": "Proposez-vous des options d'emballage écologiques ?",
+    "answer_11": "Oui, nous proposons des emballages recyclables et durables pour nos livraisons.",
+    "question_12": "Comment puis-je contacter le support client ?",
+    "answer_12": "Vous pouvez joindre notre équipe d'assistance via la section contact de notre application ou site web.",
+    "question_13": "Votre service de livraison est-il disponible en dehors des heures d'ouverture ?",
+    "answer_13": "Nous proposons des livraisons pendant des horaires prolongés, y compris le week-end, pour répondre aux besoins de nos clients.",
+    "question_14": "Comment puis-je m'inscrire à votre service de livraison ?",
+    "answer_14": "Vous pouvez vous inscrire facilement via notre site web ou notre application en fournissant des informations de base et en configurant un compte de livraison."
+  }
+}

@@ -3,7 +3,7 @@
 import { Send, ChevronDown, MessageCircle, RotateCw, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import { cn } from "@/lib/utils/cn";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 interface DropdownOption {
@@ -12,6 +12,9 @@ interface DropdownOption {
 }
 
 function OfflineChat() {
+  const { scrollYProgress } = useScroll();
+  const progressValue = useTransform(scrollYProgress, [0, 1], [0, 1]);
+  const bottom = useTransform(progressValue, (value) => (value === 0 ? 0 : 48));
   const t = useTranslations("chatbot");
   const offlineChatbotDataArray = [
     {
@@ -202,7 +205,9 @@ function OfflineChat() {
   }
 
   return (
-    <div className="fixed bottom-12 gap-2 justify-center flex flex-col -right-1 z-50 m-6">
+    <motion.div 
+    style={{bottom}}
+    className="fixed gap-2 justify-center transition-all flex flex-col -right-1 z-50 m-6">
       <AnimatePresence>
         {toggle && (
           <motion.div
@@ -330,7 +335,7 @@ function OfflineChat() {
           </motion.button>
         )}
       </AnimatePresence>
-    </div>
+    </motion.div>
   );
 }
 

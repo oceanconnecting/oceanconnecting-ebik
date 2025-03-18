@@ -9,7 +9,7 @@ interface ButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 
 const ButtonVariants = {
   primary:
-    "bg-primary-500 focus:outline-none focus:ring-2 ring-primary-500 focus:ring-primary focus:ring-offset-2 hover:bg-primary-600 text-white",
+    "bg-primary-500 max-w-fit max-h-fit focus:outline-none focus:ring-2 ring-primary-500 focus:ring-primary focus:ring-offset-2 hover:bg-primary-600 text-white",
   secondary:
     "border bg-white/40 border-gray-200 focus:outline-none focus:ring-2 ring-primary-500 focus:ring-primary focus:ring-offset-2 text-text-100 hover:text-text-50 text-text-100",
 };

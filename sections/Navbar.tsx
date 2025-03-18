@@ -31,8 +31,9 @@ function Navbar() {
               <Image
                 src={"/LOGISTOCEAN-logo.svg"}
                 alt={""}
-                width={200}
-                height={200}
+                width={85}
+                height={85}
+                className="w-18"
               />
             </Link>
           </div>
@@ -53,7 +54,7 @@ function Navbar() {
               </ul>
             </nav>
           </div>
-          <div className="flex items-center gap-4 md:mr-0 mr-4">
+          <div className="flex items-center gap-2">
             <Button
               variant="primary"
               className="text-sm bg-background-50 hover:bg-background-100"

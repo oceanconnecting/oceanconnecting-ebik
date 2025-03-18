@@ -9,11 +9,12 @@ export default function BackToTopButton() {
   const progressValue = useTransform(scrollYProgress, [0, 1], [0, 1]);
   const strokeDasharray = useTransform(progressValue, [0, 1], [283, 0]);
   const opacity = useTransform(progressValue, (value) => (value === 0 ? 0 : 1));
+  const scale = useTransform(progressValue, (value) => (value === 0 ? 0 : 1));
 
   return (
     <motion.div
       className="fixed bottom-5 right-5 z-50 flex transition-all duration-200 items-center justify-center"
-      style={{ opacity }}
+      style={{ opacity, scale }}
     >
       <motion.div
         className="relative flex items-center justify-center w-12 h-12 rounded-full shadow-lg bg-primary-500 hover:bg-opacity-80 active:bg-primary-300 hover:bg-primary-400 transition duration-300 cursor-pointer"

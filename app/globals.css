@@ -25,46 +25,46 @@
   --color-background-700: #b3b3b3;
   --color-background-800: #cccccc;
   --color-background-900: #e6e6e6;
-  --color-background-950: #ffffff;
+  --color-background-950: #f2f2f2;
 
   /* Primary colors */
-  --color-primary-50: #181101;
-  --color-primary-100: #302203;
-  --color-primary-200: #614405;
-  --color-primary-300: #916608;
-  --color-primary-400: #c2880a;
-  --color-primary-500: #f2aa0d;
-  --color-primary-600: #f5bb3d;
-  --color-primary-700: #f7cc6e;
-  --color-primary-800: #fadd9e;
-  --color-primary-900: #fceecf;
-  --color-primary-950: #fef6e7;
+  --color-primary-50: #000d1a;
+  --color-primary-100: #001933;
+  --color-primary-200: #003366;
+  --color-primary-300: #004c99;
+  --color-primary-400: #0066cc;
+  --color-primary-500: #007fff;
+  --color-primary-600: #3399ff;
+  --color-primary-700: #66b2ff;
+  --color-primary-800: #99ccff;
+  --color-primary-900: #cce5ff;
+  --color-primary-950: #e5f2ff;
 
   /* Secondary colors */
-  --color-secondary-50: #1a1100;
-  --color-secondary-100: #332300;
-  --color-secondary-200: #664600;
-  --color-secondary-300: #996900;
-  --color-secondary-400: #cc8b00;
-  --color-secondary-500: #ffae00;
-  --color-secondary-600: #ffbe33;
-  --color-secondary-700: #ffcf66;
-  --color-secondary-800: #ffdf99;
-  --color-secondary-900: #ffefcc;
-  --color-secondary-950: #fff7e5;
+  --color-secondary-50: #000e1a;
+  --color-secondary-100: #001c33;
+  --color-secondary-200: #003866;
+  --color-secondary-300: #005499;
+  --color-secondary-400: #0070cc;
+  --color-secondary-500: #008cff;
+  --color-secondary-600: #33a3ff;
+  --color-secondary-700: #66baff;
+  --color-secondary-800: #99d1ff;
+  --color-secondary-900: #cce8ff;
+  --color-secondary-950: #e5f4ff;
 
   /* Accent colors */
-  --color-accent-50: #001119;
-  --color-accent-100: #002133;
-  --color-accent-200: #014265;
-  --color-accent-300: #016398;
-  --color-accent-400: #0184cb;
-  --color-accent-500: #01a5fe;
-  --color-accent-600: #34b7fe;
-  --color-accent-700: #67c9fe;
-  --color-accent-800: #9adbfe;
-  --color-accent-900: #ccedff;
-  --color-accent-950: #e6f6ff;
+  --color-accent-50: #00111a;
+  --color-accent-100: #002333;
+  --color-accent-200: #004666;
+  --color-accent-300: #006999;
+  --color-accent-400: #008bcc;
+  --color-accent-500: #00aeff;
+  --color-accent-600: #33beff;
+  --color-accent-700: #66cfff;
+  --color-accent-800: #99dfff;
+  --color-accent-900: #ccefff;
+  --color-accent-950: #e5f7ff;
 
   /* Headline Typography */
   --font-headline-1: Sora;

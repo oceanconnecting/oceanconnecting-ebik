@@ -2,7 +2,6 @@
 
 import { Send, ChevronDown, MessageCircle, RotateCw, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
-import Button from "./Button";
 import { cn } from "@/lib/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
 

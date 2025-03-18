@@ -3,16 +3,21 @@
 import Button from "@/components/Button";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "@/components/language-switcher";
 
 function Navbar() {
+  const t = useTranslations("navbar");
+
   const NavbarList = [
-    { title: "features", link: "/#features" },
-    { title: "services", link: "/#services" },
-    { title: "about", link: "/#about" },
-    { title: "career", link: "/#career" },
-    { title: "opinion", link: "/#opinion" },
+    { title: t("features"), link: "/#features" },
+    { title: t("services"), link: "/#services" },
+    { title: t("about"), link: "/#about" },
+    { title: t("career"), link: "/#career" },
+    { title: t("opinion"), link: "/#opinion" },
   ];
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -23,10 +28,12 @@ function Navbar() {
         <div className="flex h-16 items-center gap-0 md:gap-12">
           <div className="md:flex flex-1 md:flex-none md:items-center md:gap-12">
             <Link className="block" href="/#home">
-              <span className="sr-only">Home</span>
-              <h1 className="text-primary-50 font-sora">
-                e<span className="text-primary-500">.</span>Bike Delivery
-              </h1>
+              <Image
+                src={"/LOGISTOCEAN-logo.svg"}
+                alt={""}
+                width={200}
+                height={200}
+              />
             </Link>
           </div>
 
@@ -52,8 +59,9 @@ function Navbar() {
               className="text-sm bg-background-50 hover:bg-background-100"
               href="/#contact"
             >
-              Contact
+              {t("contact")}
             </Button>
+            <LanguageSwitcher />
           </div>
 
           <div className="block md:hidden">

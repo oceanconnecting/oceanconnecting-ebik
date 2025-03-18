@@ -7,35 +7,38 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import { useTranslations } from "next-intl"; // Import useTranslations
 
 function Footer() {
+  const t = useTranslations(); // Initialize the translation function
+
   const footerLinks = [
     {
-      title: "Company",
+      title: t("footer.companyTitle"),
       links: [
-        { name: "About", href: "/#about" },
-        { name: "Services", href: "/#services" },
-        { name: "Features", href: "/#features" },
-        { name: "Career", href: "/#career" },
-        { name: "Opinion", href: "/#opinion" },
-        {name: "Contact", href: "/#contact"},
+        { name: t("footer.about"), href: "/#about" },
+        { name: t("footer.services"), href: "/#services" },
+        { name: t("footer.features"), href: "/#features" },
+        { name: t("footer.career"), href: "/#career" },
+        { name: t("footer.opinion"), href: "/#opinion" },
+        { name: t("footer.contact"), href: "/#contact" },
       ],
     },
     {
-      title: "Support",
+      title: t("footer.supportTitle"),
       links: [
-        { name: "Contact", href: "/#contact" },
-        { name: "FAQ", href: "/faq" },
-        { name: "Privacy Policy", href: "/privacy" },
-        { name: "Terms of Service", href: "/terms" },
+        { name: t("footer.contact"), href: "/#contact" },
+        { name: t("footer.faq"), href: "/faq" },
+        { name: t("footer.privacyPolicy"), href: "/privacy" },
+        { name: t("footer.termsOfService"), href: "/terms" },
       ],
     },
   ];
 
   const socialLinks = [
-    { icon: <Facebook size={20} />, href: "#", label: "Facebook" },
-    { icon: <Instagram size={20} />, href: "#", label: "Instagram" },
-    { icon: <Twitter size={20} />, href: "#", label: "Twitter" },
+    { icon: <Facebook size={20} />, href: "#", label: t("footer.facebook") },
+    { icon: <Instagram size={20} />, href: "#", label: t("footer.instagram") },
+    { icon: <Twitter size={20} />, href: "#", label: t("footer.twitter") },
   ];
 
   return (
@@ -49,8 +52,7 @@ function Footer() {
               </h2>
             </div>
             <p className="mt-4 max-w-xs text-sm text-text-100/80">
-              Fast, eco-friendly delivery solutions for your business. Reliable
-              service with zero emissions.
+              {t("footer.description")}
             </p>
             <div className="mt-6 flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -86,7 +88,9 @@ function Footer() {
             ))}
 
             <div>
-              <p className="font-medium text-text-100">Contact</p>
+              <p className="font-medium text-text-100">
+                {t("footer.contactTitle")}
+              </p>
               <ul className="mt-4 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <MapPin
@@ -94,7 +98,7 @@ function Footer() {
                     className="text-primary-500 shrink-0 mt-0.5"
                   />
                   <span className="text-text-100/75">
-                    123 Delivery Street, Eco City, 10001
+                    {t("footer.address")}
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -102,16 +106,14 @@ function Footer() {
                     size={18}
                     className="text-primary-500 shrink-0 mt-0.5"
                   />
-                  <span className="text-text-100/75">+1 (555) 123-4567</span>
+                  <span className="text-text-100/75">{t("footer.phone")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Mail
                     size={18}
                     className="text-primary-500 shrink-0 mt-0.5"
                   />
-                  <span className="text-text-100/75">
-                    info@ebikedelivery.com
-                  </span>
+                  <span className="text-text-100/75">{t("footer.email")}</span>
                 </li>
               </ul>
             </div>
@@ -121,27 +123,27 @@ function Footer() {
         <div className="mt-8 border-t border-gray-100 pt-6">
           <div className="flex flex-col-reverse gap-4 sm:flex-row sm:justify-between">
             <p className="text-xs text-text-100/70">
-              &copy; {new Date().getFullYear()} e.Bike Delivery. All rights
-              reserved.
+              &copy; {new Date().getFullYear()} e.Bike Delivery.{" "}
+              {t("footer.allRightsReserved")}
             </p>
             <nav className="flex gap-4 text-xs">
               <a
                 href="/privacy"
                 className="text-text-100/70 hover:text-primary-500 transition-colors"
               >
-                Privacy Policy
+                {t("footer.privacyPolicy")}
               </a>
               <a
                 href="/terms"
                 className="text-text-100/70 hover:text-primary-500 transition-colors"
               >
-                Terms & Conditions
+                {t("footer.termsConditions")}
               </a>
               <a
                 href="/cookies"
                 className="text-text-100/70 hover:text-primary-500 transition-colors"
               >
-                Cookies
+                {t("footer.cookies")}
               </a>
             </nav>
           </div>

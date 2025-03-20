@@ -43,8 +43,8 @@ export default function Hero() {
 
           {/* Center column - Hero text */}
           <motion.div
-            initial={{ opacity: 0, y: 90, scale: 0.4 }}
-            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            initial={{ opacity: 0, y: 90 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="text-center mx-auto max-w-lg mb-8 md:mb-0"
           >

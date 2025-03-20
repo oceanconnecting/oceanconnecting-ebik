@@ -43,9 +43,10 @@ export default function Hero() {
 
           {/* Center column - Hero text */}
           <motion.div
-            initial={{ opacity: 0, y: 90 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 90, scale: 0.4 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true }}
+            transition={{ duration: 0.3 }}
             className="text-center mx-auto max-w-lg mb-8 md:mb-0"
           >
             <div className="inline-flex items-center border bg-gradient-to-t from-background-900 to-white shadow-md border-background-950 gap-2 backdrop-blur-sm px-4 py-2 rounded-full mb-6">

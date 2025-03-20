@@ -6,18 +6,20 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/language-switcher";
 
 function Navbar() {
   const t = useTranslations("navbar");
+  const locale = useLocale();
 
   const NavbarList = [
-    { title: t("features"), link: "/#features" },
-    { title: t("services"), link: "/#services" },
-    { title: t("about"), link: "/#about" },
-    { title: t("career"), link: "/#career" },
-    { title: t("opinion"), link: "/#opinion" },
+    { title: t("features"), link: `/${locale}#features` },
+    { title: t("services"), link: `/${locale}#services` },
+    { title: t("career"), link: `/${locale}#career` },
+    { title: t("about"), link: `/${locale}#about` },
+    { title: t("goals"), link: `/${locale}#goals` },
+    { title: t("opinion"), link: `/${locale}#opinion` },
   ];
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

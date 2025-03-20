@@ -112,6 +112,10 @@
     "formSuccess": "Formulaire soumis avec succès !",
     "formError": "Quelque chose a mal tourné !"
   },
+  "goal": {
+    "tag": "Nos Objectifs",
+    "description": "Chez Logist Ocean, nous visons à révolutionner la livraison urbaine en proposant un service de livraison rapide, fiable et durable à vélo électrique. Notre mission est de créer une solution de transport plus écologique et plus efficace, qui privilégie la livraison sans émissions et respectueuse de l’environnement. En adoptant le transport par vélo électrique, nous contribuons à réduire la congestion urbaine, à diminuer l’empreinte carbone et à promouvoir la logistique verte."
+  },
   "footer": {
     "companyTitle": "Entreprise",
     "about": "À propos",

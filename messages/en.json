@@ -112,6 +112,10 @@
     "formSuccess": "Form submitted successfully!",
     "formError": "Something went wrong!"
   },
+  "goal": {
+    "tag": "Our Goals",
+    "description": "At Logist Ocean, we aim to revolutionize urban delivery by providing a fast, reliable, and sustainable e-bike delivery service. Our mission is to create a greener, more efficient transportation solution that prioritizes eco-friendly, zero-emission delivery. By embracing e-bike transportation, we contribute to reducing urban congestion, lowering carbon footprints, and promoting green logistics."
+  },
   "footer": {
     "companyTitle": "Company",
     "about": "About",

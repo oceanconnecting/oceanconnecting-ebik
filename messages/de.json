@@ -112,6 +112,10 @@
     "formSuccess": "Formular erfolgreich abgeschickt!",
     "formError": "Etwas ist schief gelaufen!"
   },
+  "goal": {
+    "tag": "Unsere Ziele",
+    "description": "Bei Logist Ocean haben wir es uns zum Ziel gesetzt, die urbane Zustellung zu revolutionieren, indem wir einen schnellen, zuverlässigen und nachhaltigen E-Bike-Lieferservice anbieten. Unsere Mission ist es, eine umweltfreundlichere und effizientere Transportlösung zu schaffen, die emissionsfreie Lieferungen in den Mittelpunkt stellt. Durch den Einsatz von E-Bikes tragen wir dazu bei, die städtische Verkehrsbelastung zu reduzieren, den CO2-Fußabdruck zu verringern und grüne Logistik zu fördern."
+  },
   "footer": {
     "companyTitle": "Unternehmen",
     "about": "Über uns",

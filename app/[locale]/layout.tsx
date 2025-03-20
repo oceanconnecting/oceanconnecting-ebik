@@ -8,6 +8,8 @@ import BackToTopButton from "@/components/BackToTopButton";
 import OfflineChat from "@/components/OfflineChat";
 import { redirect } from "next/navigation";
 import { getMessages } from "next-intl/server";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const sora = Sora({
   variable: "--font-sora",
@@ -40,7 +42,7 @@ export default async function RootLayout({
   const validLocales = ["fr", "en", "de", "zh"];
 
   if (!validLocales.includes(locale)) {
-    redirect("/en");
+    redirect("/de");
   }
 
   return (
@@ -53,6 +55,8 @@ export default async function RootLayout({
           <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId="G-P7X10BVP90"/>
+        <Analytics/>
       </body>
     </html>
   );

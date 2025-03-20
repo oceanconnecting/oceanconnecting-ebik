@@ -1,7 +1,9 @@
+"use client";
+
 import Button from "@/components/Button";
-import { BadgeCheck } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { motion } from "motion/react";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -18,7 +20,14 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="relative z-10 grid grid-cols-1 md:flex justify-center gap-8 items-center">
           {/* Left column image */}
-          <div className="absolute -rotate-6 -left-20 hidden -z-10 lg:flex justify-center items-center">
+          <motion.div
+            initial={{ left: -300, rotate: -25 }}
+            whileInView={{ left: -80, rotate: -6 }}
+            exit={{ left: -80, rotate: -6 }}
+            transition={{ duration: 0.3 }}
+            viewport={{ once: true }}
+            className="absolute hidden -z-10 lg:flex justify-center items-center"
+          >
             <div className="relative max-w-xs md:max-w-xs mx-auto md:mx-0">
               <div className="relative z-10 overflow-hidden p-2">
                 <Image
@@ -30,10 +39,15 @@ export default function Hero() {
                 />
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Center column - Hero text */}
-          <div className="text-center mx-auto max-w-lg mb-8 md:mb-0">
+          <motion.div
+            initial={{ opacity: 0, y: 90 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mx-auto max-w-lg mb-8 md:mb-0"
+          >
             <div className="inline-flex items-center border bg-gradient-to-t from-background-900 to-white shadow-md border-background-950 gap-2 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
               <div className="flex justify-center -space-x-2">
                 {["/hero/p1.jpg", "/hero/p2.jpg", "/hero/p3.jpg"].map((i) => (
@@ -68,10 +82,17 @@ export default function Hero() {
                 {t("contact_us")}
               </Button>
             </div>
-          </div>
+          </motion.div>
 
           {/* Right column image */}
-          <div className="absolute rotate-6 -right-20 hidden -z-10 lg:flex justify-center items-center">
+          <motion.div
+            initial={{ right: -300, rotate: 25 }}
+            whileInView={{ right: -80, rotate: 6 }}
+            exit={{ right: -80, rotate: 6 }}
+            transition={{ duration: 0.3 }}
+            viewport={{ once: true }}
+            className="absolute hidden -z-10 lg:flex justify-center items-center"
+          >
             <div className="relative max-w-xs md:max-w-xs mx-auto md:mx-0">
               <div className="relative z-10 overflow-hidden p-2">
                 <Image
@@ -83,7 +104,7 @@ export default function Hero() {
                 />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

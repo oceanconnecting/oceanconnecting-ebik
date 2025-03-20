@@ -22,15 +22,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "e.bike",
-  description: "your go to e-bike delivery service",
+  title: "Logist Ocean E-bike",
+  description: "Your go-to e-bike delivery service for fast, eco-friendly, and sustainable delivery solutions.",
+  keywords: "Logist Ocean, e-bike delivery service, sustainable delivery, eco-friendly transportation, green logistics, electric bike courier, urban delivery, fast delivery, local delivery service, e-bike transportation, sustainable transport, zero-emission delivery",
 };
+
 
 interface RootLayoutProps {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }
-
 
 export default async function RootLayout({
   children,

@@ -1,8 +1,11 @@
+"use client";
+
 import ImageCard from "@/components/ImageCard";
 import SectionWrapper from "@/components/SectionWrapper";
 import Tag from "@/components/Tag";
 import React from "react";
 import { useTranslations } from "next-intl";
+import { motion } from "motion/react";
 
 function Services() {
   const t = useTranslations("services");
@@ -44,19 +47,38 @@ function Services() {
     },
   ];
 
+  const fadeInAnimations = {
+    initial: {
+      opacity: 0,
+      y: 100,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  };
+
   return (
     <section id="services">
       <SectionWrapper>
         <Tag>{t("tag")}</Tag>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3 justify-center gap-4 mt-16">
           {deliveryServices.map((service, idx) => (
-            <div key={idx} className="h-64">
+            <motion.div
+              key={idx}
+              className="flex justify-center"
+              variants={fadeInAnimations}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: idx * 0.05 }}
+            >
               <ImageCard
                 title={service.name}
                 descr={service.description}
                 image={service.image}
               />
-            </div>
+            </motion.div>
           ))}
         </div>
       </SectionWrapper>

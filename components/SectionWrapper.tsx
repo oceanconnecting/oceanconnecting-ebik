@@ -1,4 +1,7 @@
+"use client";
+
 import { cn } from "@/lib/utils/cn";
+import { motion } from "motion/react";
 import React, { ReactNode } from "react";
 
 interface SectionWrapperProps {
@@ -14,7 +17,14 @@ function SectionWrapper({ children, className = "" }: SectionWrapperProps) {
         className
       )}
     >
-      {children}
+      <motion.div
+        initial={{ opacity: 0, x: -90 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
+        {children}
+      </motion.div>
     </div>
   );
 }
